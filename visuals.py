@@ -1,10 +1,5 @@
-###########################################
-# Suppress matplotlib user warnings
-# Necessary for newer version of matplotlib
 import warnings
 warnings.filterwarnings("ignore", category = UserWarning, module = "matplotlib")
-###########################################
-
 import matplotlib.pyplot as pl
 import numpy as np
 import sklearn.learning_curve as curves
